@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_container">
+            <div class="button_group">
+                <div id="btn"></div>
+                <button type="button" class="toggle_btn" onclick="login()">LOGIN</button>
+                <button type="button" class="toggle_btn" onclick="signup()">SIGNUP</button>
+            </div>
+            <form id="login" class="form_group">
+                <input type="text" class="inpt_area" placeholder="Username" required>
+                <input type="text" class="inpt_area" placeholder="Enter Password" required>
+                <input type="checkbox" class="check_box"><span>Remember Password</span>
+                <button type="submit" class="sub_btn">LOG In</button>
+            </form>
+            <form id="signup" class="form_group">
+                <input type="text" class="inpt_area" placeholder="Username" required>
+                <input type="text" class="inpt_area" placeholder="Enter Email" required>
+                <input type="text" class="inpt_area" placeholder="Enter Password" required>
+                <input type="checkbox" class="check_box"><span>
+                    I agree to the terms and conditions
+                </span>
+                <button type="submit" class="sub_btn">SIGN UP</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="login_signup.js">
+    </script>
+</body>
+</html>
